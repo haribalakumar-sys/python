@@ -11,7 +11,7 @@ pipeline{
             stage('run')
             {
                 steps{
-                bat 'C:\Users\ELCOT\AppData\Local\Microsoft\WindowsApps\python.exe'
+                bat 'C:\\Users\\ELCOT\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe fac1.py'
                 }
             }
         }
